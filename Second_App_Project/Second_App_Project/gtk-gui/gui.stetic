@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stetic-interface>
+  <configuration>
+    <images-root-path>..</images-root-path>
+  </configuration>
+  <import>
+    <widget-library name="../bin/Debug/Second_App_Project.exe" internal="true" />
+  </import>
+  <widget class="Gtk.Window" id="MainWindow" design-size="407 296">
+    <property name="MemberName" />
+    <property name="Title" translatable="yes">Hello World</property>
+    <property name="WindowPosition">CenterOnParent</property>
+    <property name="BorderWidth">3</property>
+    <signal name="DeleteEvent" handler="OnDeleteEvent" />
+    <child>
+      <widget class="Gtk.Fixed" id="fixed3">
+        <property name="MemberName" />
+        <property name="HasWindow">False</property>
+        <child>
+          <widget class="Gtk.Entry" id="txt_message">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="IsEditable">True</property>
+            <property name="InvisibleChar">•</property>
+          </widget>
+          <packing>
+            <property name="X">30</property>
+            <property name="Y">177</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="buttonEvent">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Press Here</property>
+            <property name="UseUnderline">True</property>
+            <property name="BorderWidth">5</property>
+            <signal name="Clicked" handler="OnButtonEventClicked" />
+          </widget>
+          <packing>
+            <property name="X">252</property>
+            <property name="Y">169</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="labelNameTitle">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">Write Your Name</property>
+          </widget>
+          <packing>
+            <property name="X">140</property>
+            <property name="Y">73</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</stetic-interface>

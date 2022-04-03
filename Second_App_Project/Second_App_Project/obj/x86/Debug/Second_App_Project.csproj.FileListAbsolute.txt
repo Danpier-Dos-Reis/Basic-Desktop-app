@@ -1,0 +1,6 @@
+/home/danpier/Desktop/Web_Practice/monodevellop/Second_App_Project/Second_App_Project/bin/Debug/Second_App_Project.exe
+/home/danpier/Desktop/Web_Practice/monodevellop/Second_App_Project/Second_App_Project/bin/Debug/Second_App_Project.pdb
+/home/danpier/Desktop/Web_Practice/monodevellop/Second_App_Project/Second_App_Project/obj/x86/Debug/Second_App_Project.csprojAssemblyReference.cache
+/home/danpier/Desktop/Web_Practice/monodevellop/Second_App_Project/Second_App_Project/obj/x86/Debug/Second_App_Project.csproj.CoreCompileInputs.cache
+/home/danpier/Desktop/Web_Practice/monodevellop/Second_App_Project/Second_App_Project/obj/x86/Debug/Second_App_Project.exe
+/home/danpier/Desktop/Web_Practice/monodevellop/Second_App_Project/Second_App_Project/obj/x86/Debug/Second_App_Project.pdb
