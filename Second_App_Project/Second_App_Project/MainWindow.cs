@@ -16,7 +16,7 @@ public partial class MainWindow : Gtk.Window
 
     protected void OnButtonEventClicked(object sender, EventArgs e)
     {
-        MessageDialog md = new MessageDialog(null,DialogFlags.Modal,MessageType.Info,ButtonsType.Ok, $"KLK Chamo {txt_message.Text}");
+        MessageDialog md = new MessageDialog(null,DialogFlags.Modal,MessageType.Info,ButtonsType.Ok, $"La palabra {txt_message.Text} es tu palabra favorita en cualquier acento que lo escuches");
         md.Run();
         md.Destroy();
     }
